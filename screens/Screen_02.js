@@ -5,37 +5,37 @@ export default function Screen_02 ({ navigation }){
     const data = [
         {
             name: 'Apple',
-            url: '../assets/Data/Image_101.png',
+            url: require('../assets/Data/Image_101.png'),
 
         },
         {
             name: 'Pear',
-            url: '../assets/Data/Image_102.png',
+            url: require('../assets/Data/Image_102.png'),
 
         },
         {
             name: 'Coconut',
-            url: '../assets/Data/Image_103.png',
+            url: require('../assets/Data/Image_103.png'),
 
         },
         {
             name: 'Pear',
-            url: '../assets/Data/Image_105.png',
+            url: require('../assets/Data/Image_105.png'),
 
         },
         {
             name: 'Coconut',
-            url: '../assets/Data/Image_106.png',
+            url: require('../assets/Data/Image_106.png'),
 
         },
         {
             name: 'Coconut',
-            url: '../assets/Data/Image_107.png',
+            url: require('../assets/Data/Image_107.png'),
 
         },
         {
             name: 'Pear',
-            url: '../assets/Data/Image_105.png',
+            url: require('../assets/Data/Image_105.png'),
 
         },
 
@@ -43,7 +43,7 @@ export default function Screen_02 ({ navigation }){
     return (
         <View style={styles.layout}>
            <View style={{width:'400px',alignItems:'center'}}>
-               <View style={{width:'80%',display:'flex',flexDirection:'row',justifyContent:'space-around',margin:'10px',width:'400px'}}>
+               <View style={{width:'80%',display:'flex',flexDirection:'row',justifyContent:'space-around',margin:'10px'}}>
                     <TouchableOpacity onPress={()=>{navigation.navigate("Screen_01")}}><Image source={require('../assets/Data/Image_183.png')}></Image></TouchableOpacity>
                     <TouchableOpacity onPress={()=>{navigation.navigate("Screen_03")}}><Image source={require('../assets/Data/Image_182.png')}></Image></TouchableOpacity>
                </View>
@@ -53,7 +53,7 @@ export default function Screen_02 ({ navigation }){
               </View>
     
               <View style={{display:'flex',flexDirection:'row',justifyContent:'space-around',marginBottom:'20px' }}>
-                    <View style={{margin:'5px',height:'30px', width:'100px',color:'#fff',backgroundColor:'#1dd75b',lineHeight:'30px',textAlign:'center',borderRadius:'10px'}}>Vegetable</View>
+                    <View style={{margin:'5px',height:'30px', width:'100px',color:'#fff',backgroundColor:'#1dd75b',lineHeight:'30px',textAlign:'center',borderRadius:'10px'}}> Vegetable</View>
                     <View style={{margin:'5px',height:'30px', width:'100px',color:'blue',backgroundColor:'#dddd',lineHeight:'30px',textAlign:'center',borderRadius:'10px'}}>Seafood</View>
                     <View style={{margin:'5px',height:'30px', width:'100px',color:'blue',backgroundColor:'#dddd',lineHeight:'30px',textAlign:'center',borderRadius:'10px'}}>Drinks</View>
                 
