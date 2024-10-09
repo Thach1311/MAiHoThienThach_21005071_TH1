@@ -70,7 +70,7 @@ export default function Screen_02 ({ navigation }){
                     data.map((value,index) => (
                         <View key={index} style={{backgroundColor:'#fff',display:'flex', flexDirection:'column',alignItems:'center',justifyContent:'center', height:'150px',width:'150px',borderRadius:'10px',margin:'20px'}} >
                             <TouchableOpacity onPress={()=>{navigation.navigate("Screen_03")}}>
-                                <img src={value.url} style={{width:'120px',height:'90%'}}></img>
+                                 <Image source={value.url} style={{width:'120px',height:'90%'}}/>
                                 <View style={{fontWeight:'700'}}>{value.name}</View>
                             </TouchableOpacity>
                         </View>
