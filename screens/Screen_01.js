@@ -7,7 +7,7 @@ export default function  Screen_01 ({navigation}){
            <Text style={styles.custom1}>Order your favorite!</Text>
            <Image source={require('../assets/Data/Image_96.png')} style={{marginLeft:'215px'}}></Image>
            <Image source={require('../assets/Data/Image_95.png')}></Image>
-           <Image source={require('../assets/Data/Image 97.png')}  style={{marginLeft:'200px'}} ></Image>
+           <Image source={require('../assets/Data/Image_97.png')}  style={{marginLeft:'200px'}} ></Image>
            <View style={styles.custom2}>
               <TouchableOpacity style={styles.custom3}><Text style={{color:'white'}} onPress={()=>{navigation.navigate("Screen_02")}} >Get Start</Text></TouchableOpacity>
            </View>

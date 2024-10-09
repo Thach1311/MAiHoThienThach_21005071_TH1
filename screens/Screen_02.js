@@ -5,37 +5,37 @@ export default function Screen_02 ({ navigation }){
     const data = [
         {
             name: 'Apple',
-            url: '../assets/Data/Image 101.png',
+            url: '../assets/Data/Image_101.png',
 
         },
         {
             name: 'Pear',
-            url: '../assets/Data/Image 102.png',
+            url: '../assets/Data/Image_102.png',
 
         },
         {
             name: 'Coconut',
-            url: '../assets/Data/Image 103.png',
+            url: '../assets/Data/Image_103.png',
 
         },
         {
             name: 'Pear',
-            url: '../assets/Data/Image 105.png',
+            url: '../assets/Data/Image_105.png',
 
         },
         {
             name: 'Coconut',
-            url: '../assets/Data/Image 106.png',
+            url: '../assets/Data/Image_106.png',
 
         },
         {
             name: 'Coconut',
-            url: '../assets/Data/Image 107.png',
+            url: '../assets/Data/Image_107.png',
 
         },
         {
             name: 'Pear',
-            url: '../assets/Data/Image 105.png',
+            url: '../assets/Data/Image_105.png',
 
         },
 
@@ -44,8 +44,8 @@ export default function Screen_02 ({ navigation }){
         <View style={styles.layout}>
            <View style={{width:'400px',alignItems:'center'}}>
                <View style={{width:'80%',display:'flex',flexDirection:'row',justifyContent:'space-around',margin:'10px',width:'400px'}}>
-                    <TouchableOpacity onPress={()=>{navigation.navigate("Screen_01")}}><Image source={require('../assets/Data/Image 183.png')}></Image></TouchableOpacity>
-                    <TouchableOpacity onPress={()=>{navigation.navigate("Screen_03")}}><Image source={require('../assets/Data/Image 182.png')}></Image></TouchableOpacity>
+                    <TouchableOpacity onPress={()=>{navigation.navigate("Screen_01")}}><Image source={require('../assets/Data/Image_183.png')}></Image></TouchableOpacity>
+                    <TouchableOpacity onPress={()=>{navigation.navigate("Screen_03")}}><Image source={require('../assets/Data/Image_182.png')}></Image></TouchableOpacity>
                </View>
     
                <View style={styles.searchForm}>
